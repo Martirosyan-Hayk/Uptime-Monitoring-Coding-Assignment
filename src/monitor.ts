@@ -1,14 +1,13 @@
 import axios from 'axios';
 import chalk from 'chalk';
 
+import type { IConfig } from './interfaces/i-config.ts';
 import { Logger } from './logger';
 
 export class WebsiteMonitor {
   private consecutiveFailures: Record<string, number> = {};
 
-  constructor(
-    private config: { urls: string[]; interval: number; threshold: number },
-  ) {}
+  constructor(private config: IConfig) {}
 
   async monitor() {
     Logger.log('Checking websites...');

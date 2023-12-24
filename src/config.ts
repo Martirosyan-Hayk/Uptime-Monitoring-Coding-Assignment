@@ -7,7 +7,7 @@ export function loadConfig(configFile: string): IConfig {
   const config = JSON.parse(configContent);
 
   return {
-    urls: config.urls,
+    urls: config.urls || [],
     interval: config.interval || 300,
     threshold: config.threshold || 5,
   };
