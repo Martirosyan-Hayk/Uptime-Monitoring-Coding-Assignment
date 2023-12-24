@@ -24,7 +24,7 @@ yarn install
 ## ▶️ Running the Script
 
 ```bash
-npm start
+yarn start
 ```
 
 ## 🔧 Customization
