@@ -1,0 +1,12 @@
+{
+    "urls": [
+      "https://www.example.com",
+      "https://api.example.com",
+      "htts://api.example",
+      "https://www.inconceptlabs.com/",
+      "http://www.inconceptlabs.com/"
+
+    ],
+    "interval": 1,
+    "threshold": 5
+}
