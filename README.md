@@ -6,7 +6,7 @@ This Node.js script monitors the uptime of a list of websites, periodically send
 
 ### Prerequisites
 
-Make sure you have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
+Make sure you have Node.js and yarn installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
 ### 🔄 Clone the Repository
 
