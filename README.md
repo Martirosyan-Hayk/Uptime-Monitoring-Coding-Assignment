@@ -12,7 +12,7 @@ Make sure you have Node.js and yarn installed on your machine. You can download 
 
 ```bash
 git clone https://github.com/Martirosyan-Hayk/Uptime-Monitoring-Coding-Assignment.git
-cd website-uptime-monitoring
+cd Uptime-Monitoring-Coding-Assignment
 ```
 
 ### 📦 Install Dependencies
