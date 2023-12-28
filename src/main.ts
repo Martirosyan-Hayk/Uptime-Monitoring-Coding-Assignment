@@ -10,7 +10,7 @@ const startMonitoring = () => {
 
   Logger.log(`Monitoring started with interval ${config.interval} seconds`);
 
-  schedule.scheduleJob(`*/${config.interval} * * * *`, async () => {
+  schedule.scheduleJob(`*/${config.interval} * * * * *`, async () => {
     await websiteMonitor.monitor();
   });
 };

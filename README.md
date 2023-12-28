@@ -33,7 +33,7 @@ Adding URLs to Monitor
 Edit the config.json file and add or remove URLs from the urls array.
 
 Adjusting Monitoring Interval
-To change the monitoring interval, update the interval value in the config.json file. The default is 300 seconds (5 minutes).
+To change the monitoring interval, update the interval value in the config.json file. The interval value represent seconds. The default is 300 seconds (5 minutes).
 
 Changing Failure Threshold
 Adjust the threshold value in the config.json file to set the maximum allowed consecutive failures before triggering an alert. The default is 5 failures.
